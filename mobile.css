@@ -99,15 +99,6 @@
   text-decoration: none;
 }
 
-.blogview_content img {
-  display: inline;
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.skin_view .area_view img {
-  max-width: 100%;
-  height: auto;
+.img {
   border-radius: 10px;
 }
