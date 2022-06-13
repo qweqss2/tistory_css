@@ -93,3 +93,8 @@
     white-space: nowrap;
     width: 100%;
   }
+
+  .blogview_content a {
+    color: #006dd7;
+    text-decoration: none;
+}
