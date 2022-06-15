@@ -10,5 +10,5 @@ $(document).ready(function(){
     console.log('work2');
     console.log(datetime);
     
-    $("#asideRight").html(datetime);
+    $("#asideRight").html('data test' + datetime);
 });
