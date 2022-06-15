@@ -12,7 +12,7 @@ $(document).ready(function(){
           rk = e.rank;
           kw = e.keyword;
     
-          p_text += '<li>' + rk + ' : <a href=\"https://search.naver.com/search.naver?query='+kw+'\" target=\"_new\">' + kw + '</a></li>';
+          p_text += '<li> ' + rk + '. <a href=\"https://search.naver.com/search.naver?query='+kw+'\" target=\"_new\">' + kw + '</a></li>';
         });
     
         $('#asideRight').html(p_text);
