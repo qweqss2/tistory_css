@@ -10,7 +10,5 @@ $(document).ready(function(){
     console.log('work2');
     console.log(datetime);
     
-    $(".asideRight").html('testtest00');
-
-
+    $("#asideRight").html(datetime);
 });
