@@ -7,7 +7,7 @@ $(document).ready(function(){
     
         var names = data.top10;
         console.log(names);
-        p_text = '<li style=\"font-weight:bold;color:green;\">º 포탈 실시간 검색어 º</li>'
+        p_text = '<li style=\"font-weight:bold;color:green;\">º 포탈 실시간 인기 검색어 º</li>'
         $.each(names, function(index, e) {
           rk = e.rank;
           kw = e.keyword;
