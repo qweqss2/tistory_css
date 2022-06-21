@@ -17,7 +17,7 @@ $(document).ready(function(){
         rks = rks.replace('-', '&nbsp;');
         kw = e.keyword;
 
-        p_text += '<li> ' + rks + '. <a href=\"https://search.naver.com/search.naver?where=news&query='+kw+'\" target=\"_new\">' + kw + '</a></li>';
+        p_text += '<li> ' + rks + '. <a href=\"https://search.naver.com/search.naver?where=news&sort=1&query='+kw+'\" target=\"_new\">' + kw + '</a></li>';
       });
 
       $('#asideRight').html(p_text);
